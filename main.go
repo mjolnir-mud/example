@@ -1,9 +1,14 @@
 package main
 
-import "github.com/mjolnir-mud/engine/pkg/engine"
+import (
+	"github.com/mjolnir-mud/engine/pkg/engine"
+	"github.com/mjolnir-mud/plugins/telnet_portal"
+)
 
 func main() {
-	engine.Init("example", make([]engine.Plugin, 0))
+	engine.Init("example", []engine.Plugin{
+		telnet_portal.TelnetPortal{},
+	})
 
 	engine.ExecCommand()
 }
