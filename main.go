@@ -7,7 +7,7 @@ import (
 
 func main() {
 	engine.Init("example", []engine.Plugin{
-		telnet_portal.TelnetPortal{},
+		telnet_portal.Plugin,
 	})
 
 	engine.ExecCommand()
