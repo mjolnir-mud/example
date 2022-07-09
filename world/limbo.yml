@@ -1,0 +1,8 @@
+zones:
+  - id: limbo
+rooms:
+  - id: limbo:prime
+    name: Limbo
+    short_description: You are formless, floating in a dark empty void.
+    long_description: You are formless, floating in a dark empty void.
+    container: limbo
