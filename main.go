@@ -8,9 +8,10 @@ import (
 )
 
 func main() {
-	engine.Init("example")
 
 	engine.RegisterPlugin(world.Plugin)
 	engine.RegisterPlugin(telnet_portal.Plugin)
 	engine.RegisterPlugin(compass.Plugin)
+
+	engine.Start("example")
 }
