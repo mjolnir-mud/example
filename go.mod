@@ -5,9 +5,10 @@ go 1.17
 replace github.com/mjolnir-mud/engine => ../engine
 
 require (
-	github.com/mjolnir-mud/engine v0.0.0-20220701062105-d66f86e58462
+	github.com/mjolnir-mud/engine v0.0.0-20220708004922-143dd0367350
+	github.com/mjolnir-mud/plugins/compass v0.0.0-00010101000000-000000000000
 	github.com/mjolnir-mud/plugins/telnet_portal v0.0.0-00010101000000-000000000000
-	github.com/mjolnir-mud/plugins/world v0.0.0-20220701061943-14850b66a049
+	github.com/mjolnir-mud/plugins/world v0.0.0-20220709160103-7dfaeba6adad
 )
 
 require (
@@ -21,7 +22,6 @@ require (
 	github.com/klauspost/compress v1.14.4 // indirect
 	github.com/mattn/go-colorable v0.1.12 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
-	github.com/minio/highwayhash v1.0.2 // indirect
 	github.com/nats-io/jwt/v2 v2.3.0 // indirect
 	github.com/nats-io/nats.go v1.16.0 // indirect
 	github.com/nats-io/nkeys v0.3.0 // indirect
@@ -45,3 +45,5 @@ require (
 replace github.com/mjolnir-mud/plugins/telnet_portal => ../plugins/telnet_portal
 
 replace github.com/mjolnir-mud/plugins/world => ../plugins/world
+
+replace github.com/mjolnir-mud/plugins/compass => ../plugins/compass
