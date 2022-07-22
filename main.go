@@ -15,5 +15,4 @@ func main() {
 	world.RegisterLoadableDirectory("world")
 
 	engine.Start("example")
-
 }
