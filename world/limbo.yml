@@ -1,9 +1,9 @@
 limbo_area:
-  type: :area
-zone:
-  type: zone
+  _type: area
+limbo_zone:
+  _type: zone
 limbo_prime:
-  type: room
+  _type: room
   name: Limbo
   short_description: You are formless, floating in a dark empty void.
   long_description: You are formless, floating in a dark empty void.
@@ -11,7 +11,7 @@ limbo_prime:
   exits:
     south: limbo_before_the_construct_of_creation
 limbo_before_the_construct_of_creation:
-    type: room
+    _type: room
     name: Before the Construct of Creation
     short_description: You are before the Construct of Creation.
     long_description: You are before the Construct of Creation.

@@ -8,10 +8,12 @@ import (
 )
 
 func main() {
-
 	engine.RegisterPlugin(world.Plugin)
 	engine.RegisterPlugin(telnet_portal.Plugin)
 	engine.RegisterPlugin(compass.Plugin)
 
+	world.RegisterLoadableDirectory("world")
+
 	engine.Start("example")
+
 }
